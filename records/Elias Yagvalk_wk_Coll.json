@@ -1,31 +1,31 @@
 {
     "name": "Elias Yagvalk",
-    "goal": 5677,
+    "goal": 1,
     "workouts": [
         {
             "name": "Walking",
-            "duration": 34,
-            "calories": 43
+            "duration": 3,
+            "calories": 4
         },
         {
             "name": "Yoga",
-            "duration": 34,
-            "calories": 43
+            "duration": 3,
+            "calories": 3
         },
         {
             "name": "Strength Training",
-            "duration": 23,
-            "calories": 43
+            "duration": 4,
+            "calories": 3
         },
         {
             "name": "Hiking",
-            "duration": 43,
-            "calories": 23
+            "duration": 3,
+            "calories": 33
         },
         {
             "name": "Dancing",
-            "duration": 34,
-            "calories": 42
+            "duration": 4,
+            "calories": 3
         }
     ]
 }

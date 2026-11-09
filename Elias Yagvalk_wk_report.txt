@@ -1,0 +1,58 @@
+Welcome to the Personal Fitness Tracker!
+You will log 5 workouts.
+
+----------------> 1 Walking <----------------------------------
+Workout name:             | Walking
+Duration (minutes):       | 55
+Calories burned:          | 15
+Result: Walking | 55 min | 15 cal | 0.3 cal/min | Intensity: Low
+=================================================================
+
+----------------> 2 Yoga <----------------------------------
+Workout name:             | Yoga
+Duration (minutes):       | 55
+Calories burned:          | 15
+Result: Yoga | 55 min | 15 cal | 0.3 cal/min | Intensity: Low
+=================================================================
+
+----------------> 3 Strength Training <----------------------------------
+Workout name:             | Strength Training
+Duration (minutes):       | 66
+Calories burned:          | 156
+Result: Strength Training | 66 min | 156 cal | 2.4 cal/min | Intensity: Low
+=================================================================
+
+----------------> 4 Hiking <----------------------------------
+Workout name:             | Hiking
+Duration (minutes):       | 15
+Calories burned:          | 65
+Result: Hiking | 15 min | 65 cal | 4.3 cal/min | Intensity: Low
+=================================================================
+
+----------------> 5 Dancing <----------------------------------
+Workout name:             | Dancing
+Duration (minutes):       | 15
+Calories burned:          | 65
+Result: Dancing | 15 min | 65 cal | 4.3 cal/min | Intensity: Low
+=================================================================
+All workouts logged. Great job staying active!
+=>> Please select one of the tools above to analyse your workout.
+
+===== Elias Yagvalk Workout Summary =============================================
+Workout               Duration  Calories         Rate  Intensity
+-----------------------------------------------------------------
+Walking                     55        15      0.3 c/m  Low
+Yoga                        55        15      0.3 c/m  Low
+Strength Training           66       156      2.4 c/m  Low
+Hiking                      15        65      4.3 c/m  Low
+Dancing                     15        65      4.3 c/m  Low
+
+===== Session Summary ==================================================
+Workouts logged     : 5
+Total calories      : 316
+Avg calories        : 63.2
+Total duration      : 206 min
+Avg duration        : 41.2 min
+Best workout        : Strength Training
+Goal check          : Goal reached! You burned 316 calories.
+=======================================================================

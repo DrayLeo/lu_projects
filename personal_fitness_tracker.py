@@ -502,19 +502,20 @@ class FitnessTracker:
             intensity = get_intensity(rate)
             lines.extend([
                 "",
-                f"----------------> {index} {workout.name} <----------------------------------",
+                f"===[ {index} {workout.name} ]".ljust(75, "="),
                 f"{'Workout name:':<26}| {workout.name}",
                 f"{'Duration (minutes):':<26}| {workout.duration:g}",
                 f"{'Calories burned:':<26}| {workout.calories:g}",
                 f"Result: {workout.name} | {workout.duration:g} min | "
                 f"{workout.calories:g} cal | {rate:.1f} cal/min | Intensity: {intensity}",
-                "=================================================================",
+                "=" * 75,
             ])
-        lines.append("All workouts logged. Great job staying active!")
+        lines.append("All workouts logged. Great job staying active!\n"
+                     "=>> Please select one of the tools above to analyse your workout.")
         return "\n".join(lines)
 
     def workout_heading(self):
-        return f"===== {self.record.name} Workout Summary ============================================="
+        return f"===== {self.record.name} Workout Summary ".ljust(75, "=")
 
     def full_summary(self):
         record = self.record
@@ -555,7 +556,8 @@ class FitnessTracker:
             self.clear_screen()
             self.show_header()
             if just_completed:
-                print("\nAll workouts logged. Great job staying active!\n")
+                print("\nAll workouts logged. Great job staying active!\n"
+                      "=>> Please select one of the tools above to analyse your workout.\n")
 
             first_prompt = True
             while True:
