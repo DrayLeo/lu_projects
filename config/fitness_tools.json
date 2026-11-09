@@ -1,0 +1,37 @@
+[
+    {
+        "command": "Help",
+        "description": "Display available commands.",
+        "usage": "Enter Help at any input prompt."
+    },
+    {
+        "command": "Instr",
+        "description": "Display instructions.",
+        "usage": "Enter Instr at any input prompt."
+    },
+    {
+        "command": "Home",
+        "description": "Return to the main menu; abandon unfinished result entry.",
+        "usage": "Enter Home at any prompt."
+    },
+    {
+        "command": "anawk",
+        "description": "Display the formatted workout table.",
+        "usage": "Enter anawk after completing or loading workout data."
+    },
+    {
+        "command": "summary",
+        "description": "Display total, average, best workout and goal result.",
+        "usage": "Enter summary when the workout data is complete."
+    },
+    {
+        "command": "genrpt",
+        "description": "Save workout details and the session summary in the application root.",
+        "usage": "Enter genrpt after completing or loading workout data."
+    },
+    {
+        "command": "Exit",
+        "description": "Close the application.",
+        "usage": "Enter Exit at any prompt."
+    }
+]

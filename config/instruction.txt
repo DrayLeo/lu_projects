@@ -1,0 +1,22 @@
+PERSONAL FITNESS TRACKER - INSTRUCTIONS
+
+SETUP
+Place personal_fitness_tracker.py in the application root. The config folder must contain user-maintained workout_list.json, fitness_tools.json and instruction.txt. The application DOES NOT create these config files. Missing or invalid files are reported.
+
+START
+Run: python personal_fitness_tracker.py
+Main menu: 1 - Load Collection; 2 - Enter New Collection.
+Enter Help or Instr for help and instructions.
+
+NEW COLLECTION
+Choose option 2. Enter a daily calorie goal (positive whole number), then your name. Select one or more workouts using the indexes displayed from config/workout_list.json. Type done (any capitalization) to finish selecting; /done also works. A workout can be selected only once. The program saves the name, goal and selected workouts into records/<Name>_wk_Coll.json BEFORE asking for duration and calories. Enter both numbers for each selected workout. The workout name appears immediately above the duration prompt and again above the calories prompt, so you can identify which workout is being entered.
+
+LOAD COLLECTION
+Choose option 1. Select a saved file in records/ by its displayed index. Enter a daily calorie goal, then re-enter duration and calories for the chosen workouts. The new results are saved when all selected workouts have been completed; Home cancels unfinished entry without replacing saved results.
+
+REPORTS AND COMMANDS
+anawk  - Show the workout table for the current collection.
+summary - Show the session summary, averages, best workout, and goal check.
+genrpt - Save workout details and the session summary to <Name>_wk_report.txt in the application root.
+Home - Go to the main menu. Exit - Quit.
+Help, Instr, Home and Exit appear throughout entry. The Tools line (anawk, summary, genrpt) appears only after all selected workout results are completed or loaded. Reports require completed workout data.
