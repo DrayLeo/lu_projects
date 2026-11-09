@@ -1,21 +1,21 @@
 {
     "name": "Naseems Yagvalk",
-    "goal": 24,
+    "goal": 34,
     "workouts": [
         {
             "name": "Running",
-            "duration": 54,
-            "calories": 65
+            "duration": 5,
+            "calories": 35
         },
         {
             "name": "Walking",
-            "duration": 56,
-            "calories": 67
+            "duration": 35,
+            "calories": 54
         },
         {
             "name": "Swimming",
-            "duration": 54,
-            "calories": 56
+            "duration": 32,
+            "calories": 435
         }
     ]
 }
