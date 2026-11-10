@@ -4,8 +4,6 @@
 # Track .gitignore
 !/.gitignore
 
-# Track the main Python file
-!/personal_fitness_tracker.py
 
 # Track the config directory
-!/config/
+!/Personal_Fitness_Tracker/

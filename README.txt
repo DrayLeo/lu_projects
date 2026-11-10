@@ -6,7 +6,7 @@ The config folder MUST stay alongside the Python file and contain:
   workout_list.json - user-maintained selectable workout catalog
   fitness_tools.json - command descriptions
   instruction.txt - application guide
-The application reads but does NOT generate these config files.
+
 
 The records directory is created automatically and stores <Name>_wk_Coll.json.
 The genrpt command writes <Name>_wk_report.txt to the application root.
@@ -18,4 +18,3 @@ Commands before completion: Help, Instr, Home, Exit.
 After completion, the header also shows Tools: anawk, summary, genrpt.
 Both duration and calorie prompts identify the selected workout by name.
 
-The application deliberately omits trend analysis as requested.
